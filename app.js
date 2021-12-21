@@ -46,6 +46,7 @@ try {
     getMovieId(data_movie);
 
     // Eliminar la película con id:2
+    data_movie.req={id:2};
     removeMovie(data_movie);
 
     // Añade una nueva película
